@@ -43,6 +43,6 @@ pipeline:
                         level: info
                       fail_on_severity: low
                     auth:
-                      access_token: <+secrets.getValue("SQ_MAY_USER")
+                      access_token: <+secrets.getValue("SQ_MAY_USER")>
                       domain: <+secrets.getValue("sonarqube_url")>
                       ssl: true
