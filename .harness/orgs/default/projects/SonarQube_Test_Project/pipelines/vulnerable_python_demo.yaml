@@ -46,5 +46,3 @@ pipeline:
                       access_token: <+secrets.getValue("SQ_MAY_USER")
                       domain: <+secrets.getValue("sonarqube_url")>
                       ssl: true
-                    tool:
-                      project_key: dodgy_python_app_project
